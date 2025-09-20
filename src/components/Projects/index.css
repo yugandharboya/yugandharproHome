@@ -1,0 +1,114 @@
+.projects-container {
+  min-height: 100vh;
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+
+  /* ✅ Attractive gradient background (blue to purple) */
+  background: linear-gradient(135deg, #3b82f6, #9333ea);
+}
+
+/* Header */
+.projects-header {
+  background: rgba(26, 26, 46, 0.9); /* semi-dark header */
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-header .logo a {
+  color: #facc15;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: #facc15;
+}
+
+/* Main section */
+.projects-main {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Project card containers */
+.project-card {
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  width: 240px;
+  height: 240px;
+  padding: 1.5rem;
+  text-align: center;
+  color: white; /* text will be white on colorful background */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 🎨 Different gradient backgrounds for cards */
+.project-card:nth-child(1) {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4); /* blue → cyan */
+}
+
+.project-card:nth-child(2) {
+  background: linear-gradient(135deg, #9333ea, #ec4899); /* purple → pink */
+}
+
+.project-card:nth-child(3) {
+  background: linear-gradient(135deg, #f59e0b, #ef4444); /* amber → red */
+}
+
+.project-card:nth-child(4) {
+  background: linear-gradient(135deg, #22c55e, #16a34a); /* green → dark green */
+}
+
+.project-card:nth-child(5) {
+  background: linear-gradient(135deg, #0ea5e9, #6366f1); /* sky → indigo */
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Headings & text */
+.project-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Buttons inside project cards */
+.project-card .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  color: #111827;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.project-card .btn:hover {
+  background: white;
+  transform: scale(1.05);
+}
