@@ -9,13 +9,13 @@ class Home extends Component {
         {/* Header */}
         <header className="header">
           <h1 className="logo">YugandharPro</h1>
-          <nav className="nav">
+          {/* <nav className="nav">
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
             <span className="disabled-link">Business</span>
             <span className="disabled-link">Pest Control</span>
             
-          </nav>
+          </nav> */}
         </header>
 
         {/* Hero Section */}
@@ -29,11 +29,13 @@ class Home extends Component {
               innovation and passion.
             </p>
             <div className="button-grid">
-              <Link to="/projects" className="btn">Projects</Link>
-              <Link to="/resume" className="btn">Resume</Link>
+              <Link to="/projects" className="btn">
+                Projects
+              </Link>
+              
+              <span className="btn disabled-btn">Resume</span>
               <span className="btn disabled-btn">Business</span>
               <span className="btn disabled-btn">Pest Control</span>
-              <Link to="/etc" className="btn">Etc</Link>
             </div>
           </div>
         </main>

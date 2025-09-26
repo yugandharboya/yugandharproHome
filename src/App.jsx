@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 
 // Import your pages
-import Home from "./components/Home";
-import Projects from "./components/Projects/";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects/";
 // import NxtWatch from "./components/Projects/NxtWatch";
 
 // import Resume from "./components/Resume";
