@@ -18,7 +18,7 @@ const HeroCard = () => {
       <p className="hero-description">
         I'm a web developer specializing in creating modern, responsive, and
         user-friendly web applications. Currently, I’m improving my full-stack
-        development skills using MERN.
+        development skills.
       </p>
       {/* 
       <button className="hero-button" onClick={scrollToProjects}>

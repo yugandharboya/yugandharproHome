@@ -5,7 +5,6 @@ import ProjectsCard from "../ProjectsCard";
 import ExperienceCard from "../ExperienceCard";
 import ContactCard from "../ContactCard";
 import SkillsCard from "../SkillsCard";
-// import ResumeCard from "../ResumeCard";
 
 import "./index.css";
 
@@ -36,10 +35,6 @@ const Home = () => {
         <section id="contact" className="home-section">
           <ContactCard />
         </section>
-
-        {/* <section id="resume" className="home-section">
-          <ResumeCard />
-        </section> */}
       </main>
     </div>
   );

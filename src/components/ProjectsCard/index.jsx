@@ -2,11 +2,11 @@ import "./index.css";
 
 const projects = [
   {
-    title: "HumanResource Management System",
+    title: "Human Resource Management System",
     description: "HRMS application for employee and leave management.",
     tech: "React, Node.js, Express.js, REST APIs, JWT Auth, Bootstrap",
-    link: "https://hrms.yugandharpro.com",
-    linkText: "hrms.yugandharpro.com",
+    link: "https://hrms-frontend.vercel.app",
+    linkText: "hrms-frontend.vercel.app",
   },
   {
     title: "User Management Dashboard",
