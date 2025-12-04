@@ -5,8 +5,8 @@ const projects = [
     title: "Human Resource Management System",
     description: "HRMS application for employee and leave management.",
     tech: "React, Node.js, Express.js, REST APIs, JWT Auth, Bootstrap",
-    link: "https://hrms-frontend.vercel.app",
-    linkText: "hrms-frontend.vercel.app",
+    link: "https://hrms-froentend.vercel.app",
+    linkText: "hrms-froentend.vercel.app",
   },
   {
     title: "User Management Dashboard",
