@@ -24,7 +24,7 @@ const AboutCard = () => {
         </p>
 
         <img
-          src="public/myProfile.jpg"
+          src="/myProfile.jpg"
           alt="Yugandhar"
           className="about-card-image"
         />
