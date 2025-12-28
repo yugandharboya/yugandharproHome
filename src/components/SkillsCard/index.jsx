@@ -48,10 +48,7 @@ const skillGroups = [
   },
   {
     title: "Database",
-    items: [
-      { icon: <SiMongodb />, name: "MongoDB" },
-      { icon: <SiMysql />, name: "SQL (Basics)" },
-    ],
+    items: [{ icon: <SiMysql />, name: "SQL" }],
   },
   {
     title: "Tools",
@@ -73,7 +70,7 @@ const skillGroups = [
   {
     title: "Learning",
     items: [
-      { icon: <SiMongodb />, name: "Advanced MongoDB" },
+      { icon: <SiMongodb />, name: "MongoDB" },
       { icon: <SiDocker />, name: "Docker" },
       { icon: <SiElastic />, name: "Elasticsearch" },
       { icon: <FaTools />, name: "Full MERN Stack Deep Dive" },

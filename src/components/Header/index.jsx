@@ -13,13 +13,36 @@ const Header = () => {
     <header className="header">
       <h1 className="header-title">Yugandhar Portfolio</h1>
       <div className="header-nav">
-        <button onClick={() => handleScroll("about")}>About</button>
-        <button onClick={() => handleScroll("skills")}>Skills</button>
-        <button onClick={() => handleScroll("projects")}>Projects</button>
-        <button onClick={() => handleScroll("experience")}>Experience</button>
-        <button onClick={() => handleScroll("contact")}>Contact</button>
-
-        {/* OPEN RESUME IN NEW TAB */}
+        <button
+          onClick={() => handleScroll("about")}
+          className="header-nav-buttons"
+        >
+          About
+        </button>
+        <button
+          onClick={() => handleScroll("skills")}
+          className="header-nav-buttons"
+        >
+          Skills
+        </button>
+        <button
+          onClick={() => handleScroll("projects")}
+          className="header-nav-buttons"
+        >
+          Projects
+        </button>
+        <button
+          onClick={() => handleScroll("experience")}
+          className="header-nav-buttons"
+        >
+          Experience
+        </button>
+        <button
+          onClick={() => handleScroll("contact")}
+          className="header-nav-buttons"
+        >
+          Contact
+        </button>
 
         <a
           href="/print_resume_3.pdf"

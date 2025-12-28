@@ -24,8 +24,8 @@ const AboutCard = () => {
         </p>
 
         <img
-          src="https://nnhsnorthstar.com/wp-content/uploads/2021/04/digitalworldcoverimage.jpg"
-          alt="about"
+          src="public/myProfile.jpg"
+          alt="Yugandhar"
           className="about-card-image"
         />
       </div>
