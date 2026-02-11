@@ -11,7 +11,7 @@ body {
   background-color: #0a192f;
   min-height: 100vh;
   padding-left: 10px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   padding-right: 10px;
   overflow-y: visible;
   overflow-x: hidden;

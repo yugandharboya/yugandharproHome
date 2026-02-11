@@ -45,7 +45,7 @@ const Header = () => {
         </button>
 
         <a
-          href="/print_resume_3.pdf"
+          href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"

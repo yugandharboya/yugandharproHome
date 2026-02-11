@@ -11,6 +11,7 @@ const HeroCard = () => {
 
   return (
     <div className="hero-card">
+      <img src="/myProfile.JPG" className="my-profie" />
       <p className="hero-intro">Hi, my name is</p>
       <h1 className="hero-title">Yugandhar Boya.</h1>
       <h2 className="hero-subtitle">I build things for the web.</h2>

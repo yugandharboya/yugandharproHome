@@ -72,7 +72,7 @@ const skillGroups = [
     items: [
       { icon: <SiMongodb />, name: "MongoDB" },
       { icon: <SiDocker />, name: "Docker" },
-      { icon: <SiElastic />, name: "Elasticsearch" },
+      // { icon: <SiElastic />, name: "Elasticsearch" },
       { icon: <FaTools />, name: "Full MERN Stack Deep Dive" },
     ],
   },
