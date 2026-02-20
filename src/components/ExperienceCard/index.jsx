@@ -14,9 +14,10 @@ const ExperienceCard = () => {
         <strong>I’m an entry-level full-stack developer</strong> with hands-on
         experience building real, production-ready applications using the MERN
         stack. Even though I’m still early in my software career, I’ve designed
-        and developed complete end-to-end solutions including HRMS, user
-        management dashboards, and an e-commerce platform — all deployed with
-        authentication, backend APIs, and role-based access control.
+        and developed complete end-to-end solutions including ExpenseTracker,
+        HRMS, user management dashboards, and an e-commerce platform — all
+        deployed with authentication, backend APIs, and role-based access
+        control.
       </p>
 
       <p className="experience-text">

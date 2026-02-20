@@ -13,8 +13,8 @@ const ContactCard = () => {
       <p className="contact-subtitle">Get in touch</p>
 
       <p className="contact-text">
-        If you'd like to connect regarding opportunities, collaboration, or have
-        a project idea, feel free to reach out using any method below.
+        Open to job opportunities and collaborations — feel free to get in
+        touch.
       </p>
 
       <div className="contact-info">

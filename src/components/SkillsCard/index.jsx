@@ -14,7 +14,6 @@ import {
   SiGithub,
   SiVercel,
   SiDocker,
-  SiElastic,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaTools } from "react-icons/fa";
@@ -72,7 +71,6 @@ const skillGroups = [
     items: [
       { icon: <SiMongodb />, name: "MongoDB" },
       { icon: <SiDocker />, name: "Docker" },
-      // { icon: <SiElastic />, name: "Elasticsearch" },
       { icon: <FaTools />, name: "Full MERN Stack Deep Dive" },
     ],
   },
@@ -83,16 +81,15 @@ const SkillsCard = () => {
     <div className="skills-card">
       <div className="skills-header">
         <h2 className="skills-title">
-          <span className="skills-number">06.</span> Skills
+          <span className="skills-number">02.</span> Skills
         </h2>
-        <hr className="skills-line" />
+        <hr className="hr-line" />
       </div>
 
       <div className="skills-grid">
         {skillGroups.map((group, index) => (
           <div key={index} className="skills-column">
             <h3 className="skills-category-title">{group.title}</h3>
-
             {group.items.map((item, subIndex) => (
               <div key={subIndex} className="skill-row">
                 <span className="skill-icon">{item.icon}</span>

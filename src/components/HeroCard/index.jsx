@@ -21,10 +21,6 @@ const HeroCard = () => {
         user-friendly web applications. Currently, I’m improving my full-stack
         development skills.
       </p>
-      {/* 
-      <button className="hero-button" onClick={scrollToProjects}>
-        Check out my work
-      </button> */}
     </div>
   );
 };

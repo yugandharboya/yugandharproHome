@@ -10,9 +10,9 @@ import "./index.css";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home-page-layout">
       <Header />
-      <main className="home-main">
+      <div className="home-sectins-wrapper">
         <section id="hero" className="home-section">
           <HeroCard />
         </section>
@@ -35,7 +35,7 @@ const Home = () => {
         <section id="contact" className="home-section">
           <ContactCard />
         </section>
-      </main>
+      </div>
     </div>
   );
 };
